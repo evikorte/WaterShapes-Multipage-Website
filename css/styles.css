@@ -1,0 +1,17 @@
+:root {
+  --logo-font-sytle: "Inspiration", cursive;
+  --primary-font-style: "Roboto", sans-serif;
+}
+
+body {
+  font-family: var(--primary-font-style);
+  background-image: ;
+}
+#brand {
+  font-family: var(--logo-font-sytle);
+  font-size: 56px;
+}
+
+#aboutText {
+  margin: 20px 100px;
+}

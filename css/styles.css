@@ -7,6 +7,15 @@ body {
   font-family: var(--primary-font-style);
   background-image: ;
 }
+#navBar {
+  position: fixed;
+  width: 100%;
+}
+h1 {
+  position: relative;
+  margin-top: 10px;
+}
+
 #brand {
   font-family: var(--logo-font-sytle);
   font-size: 56px;

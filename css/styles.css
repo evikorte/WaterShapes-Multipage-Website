@@ -10,6 +10,10 @@ body {
   position: fixed;
   width: 100%;
 }
+#headLine {
+  margin-top: 100px;
+  max-width: 100%;
+}
 
 #brand {
   font-family: var(--logo-font-sytle);

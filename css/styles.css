@@ -11,10 +11,6 @@ body {
   position: fixed;
   width: 100%;
 }
-h1 {
-  position: relative;
-  margin-top: 10px;
-}
 
 #brand {
   font-family: var(--logo-font-sytle);
@@ -23,4 +19,8 @@ h1 {
 
 #aboutText {
   margin: 20px 100px;
+}
+
+#welcomePics {
+  max-height: 250px;
 }

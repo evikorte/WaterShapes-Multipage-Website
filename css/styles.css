@@ -1,6 +1,7 @@
 :root {
   --logo-font-sytle: "Inspiration", cursive;
   --primary-font-style: "Roboto", sans-serif;
+  --primary-font-color: #198754;
 }
 
 body {
@@ -13,10 +14,12 @@ body {
 #headLine {
   margin-top: 100px;
   max-width: 100%;
+  color: var(--primary-font-color);
 }
 
 #brand {
   font-family: var(--logo-font-sytle);
+  color: var(--primary-font-color);
   font-size: 56px;
 }
 
@@ -26,4 +29,5 @@ body {
 
 #welcomePics {
   max-height: 350px;
+  margin-top: 50px;
 }

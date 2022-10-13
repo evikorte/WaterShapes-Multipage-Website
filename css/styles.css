@@ -31,3 +31,8 @@ body {
   max-height: 350px;
   margin-top: 50px;
 }
+
+#icon,
+#emailButton {
+  color: var(--primary-font-color);
+}

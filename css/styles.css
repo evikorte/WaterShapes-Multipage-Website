@@ -11,7 +11,8 @@ body {
   position: fixed;
   width: 100%;
 }
-#headLine {
+
+#hero {
   margin-top: 75px;
   font-size: 50px;
   font-weight: 600;

@@ -6,10 +6,15 @@
 
 body {
   font-family: var(--primary-font-style);
+  padding-bottom: 40px;
 }
 #navBar {
   position: fixed;
   width: 100%;
+  padding-left: 50px;
+}
+.nav-item {
+  padding-left: 40px;
 }
 
 #hero {
@@ -51,4 +56,17 @@ body {
     margin: 10px 25px;
     text-align: justify;
   }
+}
+
+#feedback {
+  background-color: #f8f9fa;
+  padding: 10px;
+  border-radius: 15px;
+}
+
+#evikorte {
+  text-decoration: none;
+  color: var(--primary-font-color);
+  font-size: 10px;
+  line-height: 50px;
 }

@@ -41,3 +41,14 @@ body {
 #emailButton {
   color: var(--primary-font-color);
 }
+
+@media (max-width: 420px) {
+  #hero {
+    font-size: 30px;
+  }
+  #aboutText {
+    font-size: 15px;
+    margin: 10px 25px;
+    text-align: justify;
+  }
+}

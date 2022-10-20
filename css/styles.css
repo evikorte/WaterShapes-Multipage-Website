@@ -2,6 +2,7 @@
   --logo-font-sytle: "Inspiration", cursive;
   --primary-font-style: "Roboto", sans-serif;
   --primary-font-color: #22267b;
+  --background-color: #fff6f6;
 }
 
 body {
@@ -38,7 +39,6 @@ body {
 
 #welcomePics {
   margin-top: 50px;
-  height: 500px;
 }
 
 #icon,

@@ -8,6 +8,7 @@
 body {
   font-family: var(--primary-font-style);
   padding-bottom: 40px;
+  background-color: var(--background-color);
 }
 #navBar {
   position: fixed;

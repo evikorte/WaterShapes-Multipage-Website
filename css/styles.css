@@ -52,10 +52,13 @@ body {
   #hero {
     font-size: 30px;
   }
+  #aboutText {
+    font-size: 15px;
+  }
 }
 
 #aboutText {
-  font-size: 15px;
+  font-size: 20px;
   text-align: justify;
   margin: 10px 10px;
 }

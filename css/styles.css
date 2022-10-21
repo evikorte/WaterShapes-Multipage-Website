@@ -49,9 +49,6 @@ body {
 }
 
 @media (max-width: 576px) {
-  #hero {
-    font-size: 30px;
-  }
   #aboutText {
     font-size: 15px;
     margin: 10px 10px;

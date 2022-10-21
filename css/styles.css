@@ -8,12 +8,17 @@
 body {
   font-family: var(--primary-font-style);
   padding-bottom: 40px;
-  background-color: var(--background-color);
 }
+
+#homepageBody {
+  background-image: url("zenhouse.jpg");
+}
+
 #navBar {
   position: fixed;
   width: 100%;
   padding-left: 50px;
+  z-index: 99999;
 }
 .nav-item {
   padding-left: 40px;
@@ -34,10 +39,6 @@ body {
   font-size: 56px;
 }
 
-#aboutText {
-  margin: 20px 200px;
-}
-
 #welcomePics {
   margin-top: 50px;
 }
@@ -51,11 +52,12 @@ body {
   #hero {
     font-size: 30px;
   }
-  #aboutText {
-    font-size: 15px;
-    margin: 10px 25px;
-    text-align: justify;
-  }
+}
+
+#aboutText {
+  font-size: 15px;
+  text-align: justify;
+  margin: 10px 10px;
 }
 
 #feedback {

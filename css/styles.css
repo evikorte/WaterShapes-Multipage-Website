@@ -48,19 +48,20 @@ body {
   color: var(--primary-font-color);
 }
 
-@media (max-width: 420px) {
+@media (min-width: 576px) {
   #hero {
     font-size: 30px;
   }
   #aboutText {
     font-size: 15px;
+    margin: 10px 10px;
   }
 }
 
 #aboutText {
   font-size: 20px;
   text-align: justify;
-  margin: 10px 10px;
+  margin: 25px 50px;
 }
 
 #feedback {

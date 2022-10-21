@@ -11,7 +11,10 @@ body {
 }
 
 #homepageBody {
-  background-image: url("zenhouse.jpg");
+  background-image: url("../images/zenhouse.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 #navBar {
@@ -25,13 +28,27 @@ body {
   font-size: 20px;
 }
 
-#hero {
+#hero,
+#welcomeTitle {
   margin-top: 75px;
   font-size: 50px;
   font-weight: 600;
   padding-top: 50px;
   max-width: 100%;
   color: var(--primary-font-color);
+}
+
+#welcomeTitle {
+  text-shadow: 2px 2px var(--primary-font-color);
+  margin-bottom: 60px;
+}
+
+#welcome {
+  text-shadow: 2px 2px var(--primary-font-color);
+  margin-bottom: 150px;
+}
+#copyrightWelcome {
+  text-shadow: 1px 1px whitesmoke;
 }
 
 #brand {
@@ -47,6 +64,7 @@ body {
 #icon,
 #emailButton {
   color: var(--primary-font-color);
+  text-shadow: 1px 1px white;
 }
 
 @media (max-width: 576px) {

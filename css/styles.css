@@ -48,7 +48,7 @@ body {
   color: var(--primary-font-color);
 }
 
-@media (min-width: 576px) {
+@media (max-width: 576px) {
   #hero {
     font-size: 30px;
   }

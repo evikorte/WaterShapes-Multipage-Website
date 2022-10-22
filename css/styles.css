@@ -12,8 +12,17 @@ body {
 #homepageBody {
   background-image: url("../images/zenhouse.jpg");
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: center center;
   background-size: cover;
+  background-attachment: fixed;
+}
+
+#servicesBody {
+  background-image: url("../images/fontain3.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 #navBar {
@@ -21,6 +30,7 @@ body {
   width: 100%;
   padding-left: 50px;
   z-index: 99999;
+  margin-bottom: 20px;
 }
 .nav-item {
   padding-left: 40px;
@@ -29,17 +39,21 @@ body {
 
 #hero,
 #welcomeTitle {
-  margin-top: 75px;
+  margin-top: 90px;
   font-size: 50px;
   font-weight: 600;
-  padding-top: 50px;
+  padding-top: 25px;
   max-width: 100%;
+  color: var(--primary-font-color);
+  text-shadow: 1px 1px whitesmoke;
+}
+#headLine {
   color: var(--primary-font-color);
 }
 
 #welcomeTitle {
   text-shadow: 2px 2px var(--primary-font-color);
-  margin-bottom: 60px;
+  margin-bottom: 50px;
 }
 
 #welcome {
@@ -47,8 +61,10 @@ body {
   margin-bottom: 150px;
   font-size: 25px;
 }
-#copyrightWelcome {
+#copyrightWelcome,
+#copyrightService {
   text-shadow: 1px 1px whitesmoke;
+  padding-bottom: 50px;
 }
 
 #brand {
@@ -64,7 +80,8 @@ body {
 #icon,
 #emailButton {
   color: var(--primary-font-color);
-  text-shadow: 1px 1px white;
+  text-shadow: 1px 1px whitesmoke;
+  margin-top: 100px;
 }
 
 #aboutText {
@@ -76,8 +93,13 @@ body {
   background-color: #f8f9fa;
   padding: 10px;
   border-radius: 15px;
+  margin: 20px;
 }
 
+#servicesUl {
+  color: whitesmoke;
+  text-shadow: 1px 1px var(--primary-font-color);
+}
 #evikorte {
   text-decoration: none;
   color: var(--primary-font-color);
@@ -92,7 +114,13 @@ body {
   #welcome {
     font-size: 20px;
     text-align: justify;
-    margin: 10px 20px 0px 20px;
+    margin: 20px 20px;
+  }
+  #copyrightWelcome {
+    padding-bottom: 50px;
+  }
+  #hero {
+    font-size: 30px;
   }
   #aboutText {
     font-size: 15px;

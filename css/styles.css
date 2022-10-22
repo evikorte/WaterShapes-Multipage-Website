@@ -111,6 +111,11 @@ body {
   #welcomeTitle {
     font-size: 30px;
   }
+  #contuctUStxt {
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 15px;
+  }
   #welcome {
     font-size: 20px;
     text-align: justify;
@@ -125,5 +130,9 @@ body {
   #aboutText {
     font-size: 15px;
     margin: 10px 20px;
+  }
+  #mapImage {
+    margin-left: 20px;
+    margin-right: 20px;
   }
 }

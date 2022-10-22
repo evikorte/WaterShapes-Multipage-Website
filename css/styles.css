@@ -7,7 +7,6 @@
 
 body {
   font-family: var(--primary-font-style);
-  padding-bottom: 40px;
 }
 
 #homepageBody {
@@ -46,6 +45,7 @@ body {
 #welcome {
   text-shadow: 2px 2px var(--primary-font-color);
   margin-bottom: 150px;
+  font-size: 25px;
 }
 #copyrightWelcome {
   text-shadow: 1px 1px whitesmoke;
@@ -67,16 +67,8 @@ body {
   text-shadow: 1px 1px white;
 }
 
-@media (max-width: 576px) {
-  #aboutText {
-    font-size: 15px;
-    margin: 10px 10px;
-  }
-}
-
 #aboutText {
   font-size: 20px;
-  text-align: justify;
   margin: 25px 50px;
 }
 
@@ -91,4 +83,19 @@ body {
   color: var(--primary-font-color);
   font-size: 10px;
   line-height: 50px;
+}
+
+@media (max-width: 670px) {
+  #welcomeTitle {
+    font-size: 30px;
+  }
+  #welcome {
+    font-size: 20px;
+    text-align: justify;
+    margin: 10px 20px 0px 20px;
+  }
+  #aboutText {
+    font-size: 15px;
+    margin: 10px 20px;
+  }
 }

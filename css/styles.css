@@ -7,6 +7,8 @@
 
 body {
   font-family: var(--primary-font-style);
+
+  min-height: 100vh;
 }
 
 #homepageBody {
@@ -47,6 +49,12 @@ body {
   color: var(--primary-font-color);
   text-shadow: 1px 1px whitesmoke;
 }
+#hereToHelp {
+  font-size: 60px;
+  text-decoration: underline;
+  text-shadow: 2px 2px var(--primary-font-color);
+  font-family: var(--logo-font-sytle);
+}
 #headLine {
   color: var(--primary-font-color);
 }
@@ -58,13 +66,14 @@ body {
 
 #welcome {
   text-shadow: 2px 2px var(--primary-font-color);
-  margin-bottom: 150px;
+  margin-bottom: 50px;
   font-size: 25px;
 }
+
 #copyrightWelcome,
 #copyrightService {
   text-shadow: 1px 1px whitesmoke;
-  padding-bottom: 50px;
+  padding-bottom: 10px;
 }
 
 #brand {
@@ -81,7 +90,6 @@ body {
 #emailButton {
   color: var(--primary-font-color);
   text-shadow: 1px 1px whitesmoke;
-  margin-top: 100px;
 }
 
 #aboutText {
@@ -104,7 +112,6 @@ body {
   text-decoration: none;
   color: var(--primary-font-color);
   font-size: 10px;
-  line-height: 50px;
 }
 
 @media (max-width: 670px) {
@@ -121,9 +128,7 @@ body {
     text-align: justify;
     margin: 20px 20px;
   }
-  #copyrightWelcome {
-    padding-bottom: 50px;
-  }
+
   #hero {
     font-size: 30px;
   }
@@ -135,4 +140,10 @@ body {
     margin-left: 20px;
     margin-right: 20px;
   }
+}
+.sticky-footer {
+  background-color: #f8f9fa;
+  width: 100%;
+  position: sticky;
+  top: 100%;
 }
